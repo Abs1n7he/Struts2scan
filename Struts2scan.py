@@ -179,7 +179,7 @@ if __name__ == '__main__':
     if args.proxy:
         if re.findall('[a-zA-z]+://[^\s]{1,}(:{0,1})(\d*)', args.proxy):
             SetProxy(args.proxy)
-            print(color.red_twinkle("[+]Proxy:"+proxies['http']))
+            print(color.red("[+]Proxy:"+proxies['http']))
         else:
             print(color.red("[!]代理格式错误"))
             exit()
