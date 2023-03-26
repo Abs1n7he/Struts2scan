@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from colorama import init
-#from colorama import Fore, Back, Style, Cursor
-from module.colorama import init
-from module.colorama import Fore, Back, Style, Cursor
+from colorama import Fore, Back, Style, Cursor
 init(autoreset=True)
 
 #Fore是针对字体颜色，Back是针对字体背景颜色，Style是针对字体格式
