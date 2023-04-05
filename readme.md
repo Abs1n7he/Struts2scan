@@ -15,11 +15,18 @@ pip install -r requirements.txt
 
 ## 使用：
 
+扫描、批量扫描、使用代理扫描：
+
 ```
 python Struts2scan.py -u http://example.com
-python Struts2scan.py -u http://example.com -e s2_045
 python Struts2scan.py -f list.txt
 python Struts2scan.py -f list.txt -p http://127.0.0.1:8080
+```
+
+漏洞利用：
+
+```
+python Struts2scan.py -u http://example.com -e s2_045
 ```
 
 ![](img/1.png)
