@@ -23,10 +23,11 @@ python Struts2scan.py -f list.txt
 python Struts2scan.py -f list.txt -p http://127.0.0.1:8080
 ```
 
-漏洞利用：
+漏洞利用、使用代理利用：
 
 ```
 python Struts2scan.py -u http://example.com -e s2_045
+python Struts2scan.py -u http://example.com -e s2_045 -p http://127.0.0.1:8080
 ```
 
 ![](img/1.png)
